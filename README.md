@@ -13,7 +13,7 @@ COPASI is a software application for simulation and analysis of biochemical netw
 You can start the container outside of Galaxy with:
 
 ```bash
-docker run -i -t --rm -v /path/to/infile.smbl:/opt/qupath/infile.smbl -p 8080:5800 quay.io/galaxy/copasi-headless:0.4.3 bash
+docker run -i -t --rm -v /path/to/oscli.xml:/data/infile.smbl -p 8080:5800 quay.io/galaxy/copasi-headless:4.44.295-0  bash
 ```
 
 Once you are in the container you can start the application with:
